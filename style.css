@@ -227,6 +227,11 @@ form{
     font-family: monospace;
     font-size: 0.8rem;
 }
+#big{
+    color: white;
+    font-family:monospace;
+    font-size: 0.9rem;
+}
 ::-moz-selection {
     color:  rgb(80, 12, 240);
     background:  rgb(51, 2, 165);
@@ -234,6 +239,24 @@ form{
 ::selection {
     color: rgb(80, 12, 240);
     background: rgb(51, 2, 165);
+}
+#orange{
+    color: orange;
+    font-family: monospace;
+    font-size: 0.9rem;
+}
+#redd{
+    color: red;
+    font-size: 0.9rem;
+}
+#violett{
+    color: rgb(0, 217, 255);
+    font-size: 0.9rem;
+}
+#arch{
+    color: rgb(2, 2, 247);
+    font-size: 0.9rem;
+    font-family: monospace;
 }
 
 

@@ -146,7 +146,7 @@ function main(){
     var sign = "<span id='violet'>:#~</span>"
     var div = "<div id=\"H2O\"></div>"
     $("#terminal-body").append(form)
-    $("form").append(">>"+input+"<br>")
+    $("form").append("&nbsp;"+"&nbsp;"+"&nbsp;"+"&nbsp;"+"&nbsp;"+"&nbsp;"+prompt+sign+input+"<br>")
     $("form").submit((e)=>{
         e.preventDefault()
 
@@ -311,7 +311,7 @@ function main(){
         }*/
         else if(res==="dev"){
             var history = "&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<span id='opace'>showing results for \"dev\"</span>"
-            var response = "<div><span id='violet'>&nbsp&nbsp&nbsp&nbspHi, i go by the name H2O online i'm not usually active online however i might be on <br>&nbsp&nbsp&nbsp&nbspdiscord sometimes,that's about it</span></div>"
+            var response = "<div><span id='violet'>&nbsp&nbsp&nbsp&nbspHi, i go by the name H₂O online i'm not usually active online however i might be on <br>&nbsp&nbsp&nbsp&nbspdiscord sometimes,that's about it</span></div>"
             $("form").append(history+"<br>"+"&nbsp")
             $("form").append(response+"<br>")
             $("input").remove()
@@ -319,7 +319,7 @@ function main(){
         }
         else if(res==="discord"){
             var history = "&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<span id='opace'>showing results for \"discord\"</span>"
-            var response = "<div><span id='violet'>&nbsp&nbsp&nbsp&nbsp404#8912<span id=\"opace\">(not much active tho)</span></span></div>"
+            var response = "<div><span id='violet'>&nbsp&nbsp&nbsp&nbspH₂O#2847<span id=\"opace\">(not much active tho)</span></span></div>"
             $("form").append(history+"<br>"+"&nbsp")
             $("form").append(response+"<br>")
             $("input").remove()

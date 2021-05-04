@@ -242,14 +242,7 @@ function main(){
         else if(res==="api"){
             var history = "&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<span id='opace'>showing results for \"api\"</span>"
             var response = "<div><span id='violet'>&nbsp&nbsp&nbsp&nbspCheck console <span id=\"opace\"></span></span></div>"
-
-            var api = new XMLHttpRequest()
-            api.open("GET","http://api.brainshop.ai/get?bid=154518&key=bA8iYTwV8nIMyM5W&uid=[uid]&msg=[msg]")
-            api.setRequestHeader("content-type","application/json")
-            api.send()
-            api.onload = ()=>{
-                console.log(api.response)
-            }
+            fetch("http://api.brainshop.ai/get?bid=[bid]&key=[key]&uid=[uid]&msg=[msg]").then(function(response){response.json().then(function(json){console.log(json)})})
             $("form").append(history+"<br>"+"&nbsp")
             $("form").append(response+"<br>")
             $("input").remove()

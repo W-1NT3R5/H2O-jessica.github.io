@@ -239,6 +239,22 @@ function main(){
             $("input").remove()
             $("form").append(prompt+sign+input+"<br>"+"&nbsp")
         }
+        else if(res==="api"){
+            var history = "&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<span id='opace'>showing results for \"api\"</span>"
+            var response = "<div><span id='violet'>&nbsp&nbsp&nbsp&nbspCheck console <span id=\"opace\"></span></span></div>"
+
+            var api = new XMLHttpRequest()
+            api.open("GET","http://api.brainshop.ai/get?bid=154518&key=bA8iYTwV8nIMyM5W&uid=[uid]&msg=[msg]")
+            api.setRequestHeader("content-type","application/json")
+            api.send()
+            api.onload = ()=>{
+                console.log(api.response)
+            }
+            $("form").append(history+"<br>"+"&nbsp")
+            $("form").append(response+"<br>")
+            $("input").remove()
+            $("form").append(prompt+sign+input+"<br>"+"&nbsp")
+        }
         else if(res==="me"){
             var obj = JSON.parse(localStorage.getItem('H2O'))
             var history = "&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<span id='opace'>showing results for \"me\"</span>"

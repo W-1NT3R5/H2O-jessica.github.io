@@ -242,7 +242,10 @@ function main(){
         else if(res==="api"){
             var history = "&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<span id='opace'>showing results for \"api\"</span>"
             var response = "<div><span id='violet'>&nbsp&nbsp&nbsp&nbspCheck console <span id=\"opace\"></span></span></div>"
-            fetch("http://api.brainshop.ai/get?bid=[bid]&key=[key]&uid=[uid]&msg=[msg]").then(function(response){response.json().then(function(json){console.log(json)})})
+            const options = {method: 'GET', headers: {Accept: 'application/json'}};
+            var link = 'http://api.brainshop.ai/get?bid=154518&key=bA8iYTwV8nIMyM5W&uid=[uid]&msg=[msg]'
+            fetch(link,options)
+            .then((resp)=>resp.json())
             $("form").append(history+"<br>"+"&nbsp")
             $("form").append(response+"<br>")
             $("input").remove()

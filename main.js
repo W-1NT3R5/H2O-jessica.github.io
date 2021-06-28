@@ -225,7 +225,7 @@ function main(){
             var response6 = "<div><span id=\"violet\">&nbsp&nbsp&nbsp&nbspinfo</span><span id=\"white\"> - Info about the terminal</span>"
             var response7 = "<div><span id=\"violet\">&nbsp&nbsp&nbsp&nbspnews</span><span id=\"white\"> - Current_events</span>"
             var response8 = "<div><span id=\"violet\">&nbsp&nbsp&nbsp&nbspfull</span><span id=\"white\"> - Full-screen/Normal-screen</span><br>"
-            var response9 = "<div><span id=\"violet\">&nbsp&nbsp&nbsp&nbspme</span><span id=\"white\"> - Thinds related to you!</span><br>"
+            var response9 = "<div><span id=\"violet\">&nbsp&nbsp&nbsp&nbspme</span><span id=\"white\"> - Things related to you!</span><br>"
             $("form").append(history+"<br>"+"&nbsp")
             $("form").append(response+"<br>"+response2+"<br>"+response3+"<br>"+response4+"<br>"+response5+"<br>"+response6+"<br>"+response7+"<br>"+response9+"<br>")
             $("input").remove()
@@ -323,7 +323,7 @@ function main(){
         }*/
         else if(res==="dev"){
             var history = "&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<span id='opace'>showing results for \"dev\"</span>"
-            var response = "<div><span id='violet'>&nbsp&nbsp&nbsp&nbspHi, i go by the name H₂O online i'm not usually active online however i might be on <br>&nbsp&nbsp&nbsp&nbspdiscord sometimes,that's about it</span></div>"
+            var response = "<div><span id='violet'>&nbsp&nbsp&nbsp&nbspHi, i go by the name Winters online i'm not usually active online however i might be on <br>&nbsp&nbsp&nbsp&nbspdiscord sometimes,that's about it</span></div>"
             $("form").append(history+"<br>"+"&nbsp")
             $("form").append(response+"<br>")
             $("input").remove()
@@ -331,7 +331,7 @@ function main(){
         }
         else if(res==="discord"){
             var history = "&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<span id='opace'>showing results for \"discord\"</span>"
-            var response = "<div><span id='violet'>&nbsp&nbsp&nbsp&nbspH₂O#2847<span id=\"opace\">(not much active tho)</span></span></div>"
+            var response = "<div><span id='violet'>&nbsp&nbsp&nbsp&nbspWinters#5900<span id=\"opace\">(not much active tho)</span></span></div>"
             $("form").append(history+"<br>"+"&nbsp")
             $("form").append(response+"<br>")
             $("input").remove()
@@ -366,7 +366,7 @@ function main(){
         }
         else if(res==="info"){
             var history = "&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<span id='opace'>showing results for \"info\"</span><br>"
-            var response = "&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<span id=\"violet\">&nbsp&nbspUptime:<span id='green'>5days</span><br>&nbsp&nbsp&nbsp&nbsp&nbspTotal-visits:<span id='green'>1327</span><br>&nbsp&nbsp&nbsp&nbsp&nbspMade by:<span id='green'>H2O</span><br>&nbsp&nbsp&nbsp&nbsp&nbsptry to bypass the login,to see something interesting</span><br>"
+            var response = "&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<span id=\"violet\">&nbsp&nbspUptime:<span id='green'>102days</span><br>&nbsp&nbsp&nbsp&nbsp&nbspTotal-visits:<span id='green'>3327</span><br>&nbsp&nbsp&nbsp&nbsp&nbspMade by:<span id='green'>Winters</span><br>&nbsp&nbsp&nbsp&nbsp&nbsptry to bypass the login,to see something interesting</span><br>"
             $("form").append(history+"<br>"+"&nbsp")
             $("form").append(response+"<br>")
             $("input").remove()

@@ -218,7 +218,6 @@ function main(){
         if(res==="help"){
             var history = "&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<span id='opace'>showing results for \"help\"</span>"
             var response = "<div><span id='black'>&nbsp&nbsp&nbsp&nbspyou can type the following commands as a \"Guest Visitor\":<br>&nbsp<br><span id=\"violet\">&nbsp&nbsp&nbsp&nbspdev</span> - Info about me</span>"
-            var response2 ="<div><span id=\"violet\">&nbsp&nbsp&nbsp&nbspdiscord</span><span id=\"white\"> - My discord</span>"
             var response3 ="<div><span id=\"violet\">&nbsp&nbsp&nbsp&nbspsite</span><span id=\"white\"> - One of my other site(pretty old)</span>"
             var response4 ="<div><span id=\"violet\">&nbsp&nbsp&nbsp&nbspp</span><span id=\"white\"> - Play/Pause music</span>"
             var response5 ="<div><span id=\"violet\">&nbsp&nbsp&nbsp&nbsproot</span><span id=\"white\">  - Login as root</span>"
@@ -227,7 +226,7 @@ function main(){
             var response8 = "<div><span id=\"violet\">&nbsp&nbsp&nbsp&nbspfull</span><span id=\"white\"> - Full-screen/Normal-screen</span><br>"
             var response9 = "<div><span id=\"violet\">&nbsp&nbsp&nbsp&nbspme</span><span id=\"white\"> - Things related to you!</span><br>"
             $("form").append(history+"<br>"+"&nbsp")
-            $("form").append(response+"<br>"+response2+"<br>"+response3+"<br>"+response4+"<br>"+response5+"<br>"+response6+"<br>"+response7+"<br>"+response9+"<br>")
+            $("form").append(response+"<br>"+"<br>"+response3+"<br>"+response4+"<br>"+response5+"<br>"+response6+"<br>"+response7+"<br>"+response9+"<br>")
             $("input").remove()
             $("form").append(prompt+sign+input+"<br>"+"&nbsp")
         }
